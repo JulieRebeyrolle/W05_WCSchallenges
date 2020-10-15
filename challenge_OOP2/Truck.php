@@ -7,7 +7,7 @@ class Truck extends Vehicle
     private $energy;
     private $energyLevel;
     private $loadingMax;
-    private $loading;
+    private $loading = 0;
 
     public function __construct(string $color, int $nbSeats, string $energy, int $loadingMax)
     {
